@@ -15,7 +15,7 @@ const Cardapio = () => {
             Todos decorados com Confeitos de Açucar e Estêncil. Cobertura de
             chocolate meio amargo com pedaços de pão de mel e recheio cremoso.
           </p>
-          <h3 className="valores">Valores no saquinho</h3>
+          <h3 className="valores">Valores no saquinho </h3>
           <div className="listaProdutos">
             <div className="tamanhos">
               <h3>Sabores</h3>
