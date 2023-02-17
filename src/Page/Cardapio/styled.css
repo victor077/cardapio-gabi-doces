@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
+  font-weight: 500;
 }
 
 .body {
   background-image: url(../../assets/bgCardapio.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
 }
 
@@ -22,31 +23,48 @@
   justify-content: center;
   margin-top: -25vh;
 }
-.produtos {
+.containerProdutos {
   width: 80%;
 }
-.subTitulo {
+.titulo {
+  margin-top: 6rem;
   margin-bottom: 1.2rem;
   min-width: 50vw;
   font-family: Mogra, cursive;
   color: #e86398;
   text-align: center;
 }
-.subInformacoes {
-  font-weight: 700;
+.tituloPix {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  min-width: 50vw;
+  color: #e86398;
+  text-align: center;
+}
+
+.tituloCone {
+  margin-top: 3.4rem;
+  margin-bottom: 1rem;
+  min-width: 50vw;
+  font-family: Mogra, cursive;
+  color: #e86398;
+  text-align: center;
+}
+.informacoes {
+  font-weight: bold;
   margin-bottom: 2rem;
 }
-.valores {
+.subInformacoes {
   text-align: center;
   margin-bottom: 1rem;
 }
-.listaProdutos {
+/* .listaProdutos {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
+} */
 
-.tamanhos {
+.informacoesProdutos {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
@@ -54,15 +72,21 @@
 
 h3 {
   color: #733804;
+  font-weight: bold;
 }
 
-.tamanhos span, p {
+.informacoesProdutos span,
+p {
   color: #ab6930;
 }
 .l {
   display: flex;
   justify-content: space-between;
   gap: 6rem;
+}
+
+.l span {
+  font-weight: bold;
 }
 
 .precos {
@@ -72,5 +96,123 @@ h3 {
 }
 
 .listaProdutos p {
-  font-weight: 600;
+  font-weight: 800;
+}
+.informacoesFinal {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+.informacoesFinal2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.g {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.infomacoesFinalColher {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+.infomacoesFinalColher2 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+.infomacoesFinalColher h4 {
+  color: #ab6930;
+  font-weight: bold;
+}
+
+.infomacoesFinalColher p {
+  color: #ab6930;
+  font-size: 0.8rem;
+}
+
+.infomacoesFinalColher2 h4 {
+  color: #ab6930;
+  font-weight: bold;
+}
+
+.infomacoesFinalColher2 p {
+  color: #ab6930;
+  font-size: 0.8rem;
+}
+
+.subTitulo {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  min-width: 50vw;
+  font-family: Mogra, cursive;
+  color: #e86398;
+  text-align: center;
+}
+.containerPirulito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerPirulito span {
+  font-size: 1.2rem;
+}
+
+.containerPirulito {
+  color: #e86398;
+  font-family: Mogra, cursive;
+}
+
+.informacoesProdutosPirulito {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.informacoesProdutosPirulito span {
+  color: #ab6930;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.informacoesPirulito {
+  margin-bottom: 3rem;
+}
+.informacoesCesta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.informacoesCesta p,
+span {
+  font-size: 1.2rem;
+  color: #ab6930;
+}
+
+.informacoesCesta,
+span {
+  font-weight: 700;
+}
+
+.final {
+  margin-bottom: 6rem;
+}
+
+.whats {
+  position: fixed;
+  bottom: 22px;
+  left: 17px;
 }
