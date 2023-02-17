@@ -1,6 +1,8 @@
 import React from "react";
 import "./styled.css";
 import bgHeader from "../../assets/bg-header.jpg";
+import whats from "../../assets/whats.png";
+
 import {
   coneRecheado,
   miniTrufasDeAcucar,
@@ -14,7 +16,9 @@ const Cardapio = () => {
       <div className="header">
         <img src={bgHeader} alt="" />
       </div>
-
+      <a href="https://wa.me/5511934824835">
+      <img className="whats" src={whats} alt="" />
+      </a>
       <div className="containerCardapio">
         <div className="containerProdutos">
           <h3 className="tituloPix">Encomenda até o dia 05/04</h3>

@@ -210,3 +210,9 @@ span {
 .final {
   margin-bottom: 6rem;
 }
+
+.whats {
+  position: fixed;
+  bottom: 22px;
+  left: 17px;
+}
