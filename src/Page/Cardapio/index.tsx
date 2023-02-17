@@ -141,7 +141,7 @@ const Cardapio = () => {
           </h2>
           <div className="informacoesCesta">
             <p>Monte sua cesta</p>
-            <span>R$10</span>
+            <span>R$50</span>
           </div>
           <p className="final">
             Tem M e G. a partir de R$50 em produtos ganhe a cesta de brinde
