@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Montserrat, sans-serif;
+  font-weight: 500;
 }
 
 .body {
@@ -26,24 +27,31 @@
   width: 80%;
 }
 .titulo {
-  margin-top: 1rem;
+  margin-top: 6rem;
   margin-bottom: 1.2rem;
   min-width: 50vw;
   font-family: Mogra, cursive;
   color: #e86398;
   text-align: center;
 }
+.tituloPix {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  min-width: 50vw;
+  color: #e86398;
+  text-align: center;
+}
 
 .tituloCone {
   margin-top: 3.4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   min-width: 50vw;
   font-family: Mogra, cursive;
   color: #e86398;
   text-align: center;
 }
 .informacoes {
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 2rem;
 }
 .subInformacoes {
@@ -64,6 +72,7 @@
 
 h3 {
   color: #733804;
+  font-weight: bold;
 }
 
 .informacoesProdutos span,
@@ -93,10 +102,11 @@ p {
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  margin-top: 3rem;
 }
 .informacoesFinal2 {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-weight: bold;
 }
 
@@ -152,7 +162,6 @@ p {
 .containerPirulito {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
   align-items: center;
 }
 .containerPirulito span {
@@ -161,21 +170,43 @@ p {
 
 .containerPirulito {
   color: #e86398;
-  font-weight: bold;
   font-family: Mogra, cursive;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .informacoesProdutosPirulito {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  margin-top: 3rem;
   align-items: center;
 }
 
 .informacoesProdutosPirulito span {
   color: #ab6930;
   font-weight: bold;
-  font-size: 1.2rem
+  font-size: 1.2rem;
+}
+.informacoesPirulito {
+  margin-bottom: 3rem;
+}
+.informacoesCesta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.informacoesCesta p,
+span {
+  font-size: 1.2rem;
+  color: #ab6930;
+}
+
+.informacoesCesta,
+span {
+  font-weight: 700;
+}
+
+.final {
+  margin-bottom: 6rem;
 }

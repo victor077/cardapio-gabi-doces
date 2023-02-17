@@ -17,6 +17,14 @@ const Cardapio = () => {
 
       <div className="containerCardapio">
         <div className="containerProdutos">
+          <h3 className="tituloPix">Encomenda até o dia 05/04</h3>
+          <h4 className="tituloPix">
+            ACEITAMOS PIX OU DINHEIRO RESERVAS MEDIANTE 50%(METADE) DO VALOR
+            TOTAL
+          </h4>
+          <h4 className="tituloPix">
+            TODAS AS CASCAS DE OVOS SÃO FEITAS COM CHOCOLATE NOBRE DA SICAO'
+          </h4>
           <h1 className="titulo">Pão de mel Trufado</h1>
           <p className="informacoes">
             Todos decorados com Confeitos de Açucar e Estêncil. Cobertura de
@@ -102,8 +110,38 @@ const Cardapio = () => {
           ))}
           <div className="informacoesProdutosPirulito">
             <h2 className="containerPirulito">Pirulito Recheado</h2>
-              <span>R$10</span>
+            <span>R$10</span>
           </div>
+          <p>
+            Cobertura de chocolate meio amargo, com pedaços de pão de mel e
+            recheio cremoso de ninho c/nutella.
+          </p>
+          <div className="informacoesProdutosPirulito">
+            <h2 className="containerPirulito">Barrinha recheada</h2>
+            <span>R$10</span>
+          </div>
+          <p>
+            Cobertura de chocolate meio amargo ou chocolate Branco, com pedaços
+            de pão de mel e recheio Nutella ou Ninho c/nutella.
+          </p>
+          <div className="informacoesProdutosPirulito">
+            <h2 className="containerPirulito">Cenoura/ Coelho Recheado</h2>
+            <span>R$10</span>
+          </div>
+          <p className="informacoesPirulito">
+            Cobertura de chocolate Branco, com pedaços de pão de mel e recheio
+            Nutella ou Ninho c/nutella.
+          </p>
+          <h2 className="tituloCone">
+            Seja criativo e presentei quem você ama
+          </h2>
+          <div className="informacoesCesta">
+            <p>Monte sua cesta</p>
+            <span>R$10</span>
+          </div>
+          <p className="final">
+            Tem M e G. a partir de R$50 em produtos ganhe a cesta de brinde
+          </p>
         </div>
       </div>
     </div>
