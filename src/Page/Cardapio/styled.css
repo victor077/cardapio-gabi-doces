@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.body {
+  background-image: url(../../assets/bgCardapio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  width: 100%;
+}
+
+.header img {
+  width: 100%;
+  height: 76vh;
+}
+
+.containerCardapio {
+  display: flex;
+  justify-content: center;
+  margin-top: -25vh;
+}
+.containerProdutos {
+  width: 80%;
+}
+.titulo {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  min-width: 50vw;
+  font-family: Mogra, cursive;
+  color: #e86398;
+  text-align: center;
+}
+
+.tituloCone {
+  margin-top: 3.4rem;
+  margin-bottom: 2rem;
+  min-width: 50vw;
+  font-family: Mogra, cursive;
+  color: #e86398;
+  text-align: center;
+}
+.informacoes {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.subInformacoes {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* .listaProdutos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+} */
+
+.informacoesProdutos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #733804;
+}
+
+.informacoesProdutos span,
+p {
+  color: #ab6930;
+}
+.l {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.l span {
+  font-weight: bold;
+}
+
+.precos {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.listaProdutos p {
+  font-weight: 800;
+}
+.informacoesFinal {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.informacoesFinal2 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
+.g {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.infomacoesFinalColher {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+.infomacoesFinalColher2 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+.infomacoesFinalColher h4 {
+  color: #ab6930;
+  font-weight: bold;
+}
+
+.infomacoesFinalColher p {
+  color: #ab6930;
+  font-size: 0.8rem;
+}
+
+.infomacoesFinalColher2 h4 {
+  color: #ab6930;
+  font-weight: bold;
+}
+
+.infomacoesFinalColher2 p {
+  color: #ab6930;
+  font-size: 0.8rem;
+}
+
+.subTitulo {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  min-width: 50vw;
+  font-family: Mogra, cursive;
+  color: #e86398;
+  text-align: center;
+}
+.containerPirulito {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  align-items: center;
+}
+.containerPirulito span {
+  font-size: 1.2rem;
+}
+
+.containerPirulito {
+  color: #e86398;
+  font-weight: bold;
+  font-family: Mogra, cursive;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.informacoesProdutosPirulito {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.informacoesProdutosPirulito span {
+  color: #ab6930;
+  font-weight: bold;
+  font-size: 1.2rem
+}
