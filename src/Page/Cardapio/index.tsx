@@ -16,12 +16,15 @@ const Cardapio = () => {
       <div className="header">
         <img src={bgHeader} alt="" />
       </div>
-      <a href="https://wa.me/5513991687969">
-        <img className="whats" src={whats} alt="" />
+      <a className="whats" href="https://wa.me/5513991687969">
+        <div className="encomenda">
+          <p>Faça seu pedido</p>
+          <img src={whats} alt="" />
+        </div>
       </a>
       <div className="containerCardapio">
         <div className="containerProdutos">
-          <h3 className="tituloPix">Encomenda até o dia 05/04</h3>
+          <h3 className="tituloPix">Encomendas até o dia 05/04</h3>
           <h4 className="tituloPix">
             ACEITAMOS PIX OU DINHEIRO RESERVAS MEDIANTE 50%(METADE) DO VALOR
             TOTAL
@@ -49,18 +52,6 @@ const Cardapio = () => {
               </div>
             </div>
           ))}
-          {/* <div className="informacoesProdutos">
-            <p>Doce de Leite</p>
-            <div className="precos">
-              <span>R$8</span> <span>R$11</span>
-            </div>
-          </div>
-          <div className="informacoesProdutos">
-            <p>Laka Oreo</p>
-            <div className="precos">
-              <span>R$9</span> <span>R$12</span>
-            </div>
-          </div> */}
           <p className="informacoesFinal">
             Caixinha com 02 uni. Tamanho P R$17
           </p>

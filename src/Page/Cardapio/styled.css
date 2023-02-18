@@ -183,7 +183,6 @@ p {
 
 .informacoesProdutosPirulito span {
   color: #ab6930;
-  font-weight: bold;
   font-size: 1.2rem;
 }
 .informacoesPirulito {
@@ -204,7 +203,6 @@ span {
 
 .informacoesCesta,
 span {
-  font-weight: 700;
 }
 
 .final {
@@ -215,4 +213,27 @@ span {
   position: fixed;
   bottom: 22px;
   left: 17px;
+}
+
+.encomenda {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fafafa;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  color: #5fd467;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.encomenda p {
+  color: #5fd568;
+}
+
+.encomenda p:hover {
+  color: #5fd568;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
